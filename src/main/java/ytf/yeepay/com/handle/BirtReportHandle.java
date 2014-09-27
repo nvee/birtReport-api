@@ -1,5 +1,7 @@
 package ytf.yeepay.com.handle;
 
-public class BirtReportHandle {
-	
+import java.util.Map;
+
+public interface BirtReportHandle {
+	public void createBirtReport(Map<String,Object> params) throws Exception;
 }
